@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+nav {
+  display: flex;
+  text-align: right;
+  flex-grow: 1;
+}
+
+
+a {
+  color: seashell;
+}
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+#mission {
+  background-image: url(../resources/images/img-mission-background-.jpg);
+}
+#locations {
+  background-image: url(../resources/images/img-locations-background.jpg) center no-repeat;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
